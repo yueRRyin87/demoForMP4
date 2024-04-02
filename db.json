@@ -1,59 +1,152 @@
 {
-  "lists": [
+  "items": [
     {
       "id": 1,
-      "name": "Apples",
-      "category": "Fruit",
-      "quantity": 5,
-      "unit": "pieces",
-      "price": 2.5,
-      "store": "Local Grocery Store",
-      "notes": "Organic Fuji apples",
-      "purchased": false
+      "listId": 1,
+      "title": "Laundry Detergent",
+      "quantity": 1,
+      "price": 5.99
     },
     {
       "id": 2,
-      "name": "Chicken Breast",
-      "category": "Meat",
-      "quantity": 2,
-      "unit": "lbs",
-      "price": 8.99,
-      "store": "Butcher Shop",
-      "notes": "Skinless, boneless",
-      "purchased": true
+      "listId": 1,
+      "title": "Pasta",
+      "quantity": 1,
+      "price": 1.49
     },
     {
       "id": 3,
-      "name": "Milk",
-      "category": "Dairy",
+      "listId": 2,
+      "title": "Candles",
       "quantity": 1,
-      "unit": "gallon",
-      "price": 3.49,
-      "store": "Supermarket",
-      "notes": "2% Reduced Fat",
-      "purchased": false
+      "price": 3.99
     },
     {
       "id": 4,
-      "name": "Eggs",
-      "category": "Dairy",
-      "quantity": 1,
-      "unit": "dozen",
-      "price": 1.99,
-      "store": "Farmers' Market",
-      "notes": "Free-range, organic",
-      "purchased": true
+      "listId": 2,
+      "title": "Party Hats",
+      "quantity": 12,
+      "price": 6.99
     },
     {
       "id": 5,
-      "name": "Bread",
-      "category": "Bakery",
+      "listId": 3,
+      "title": "Gift Wrapping Paper",
       "quantity": 1,
-      "unit": "loaf",
-      "price": 2.99,
-      "store": "Local Bakery",
-      "notes": "Whole wheat",
-      "purchased": false
+      "price": 4.49
+    }
+  ],
+  "lists": [
+    {
+      "id": 1,
+      "title": "Household Essentials"
+    },
+    {
+      "id": 2,
+      "title": "Birthday Celebration"
+    },
+    {
+      "id": 3,
+      "title": "Holiday Preparation"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Update website homepage",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu magna sed nisi fermentum facilisis.",
+      "lane": 1
+    },
+    {
+      "id": 2,
+      "title": "Fix broken links",
+      "body": "Suspendisse euismod erat magna, non ullamcorper ex commodo nec. Integer tempor metus et ipsum ultrices dapibus.",
+      "lane": 1
+    },
+    {
+      "id": 3,
+      "title": "Prepare marketing campaign",
+      "body": "Nulla facilisi. Aenean vel mauris id velit suscipit ultrices. Cras tempus nulla nec ipsum lobortis consequat.",
+      "lane": 2
+    },
+    {
+      "id": 4,
+      "title": "Review customer feedback",
+      "body": "Ut eget leo in dolor efficitur interdum vitae id purus. Vivamus a est nec elit ultrices vulputate.",
+      "lane": 2
+    },
+    {
+      "id": 5,
+      "title": "Plan team building event",
+      "body": "Integer ut condimentum libero, eget efficitur est. Mauris ac lorem eget nunc vehicula varius.",
+      "lane": 3
+    },
+    {
+      "id": 6,
+      "title": "Organize quarterly meeting",
+      "body": "Cras vehicula ultricies purus id vehicula. Nulla facilisi. In fringilla euismod dolor, in dictum nisi convallis vel.",
+      "lane": 3
+    },
+    {
+      "id": 7,
+      "title": "Finalize budget report",
+      "body": "Duis nec libero eu ligula commodo interdum. Suspendisse potenti. Integer sit amet lacinia enim.",
+      "lane": 4
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "hotelId": 1,
+      "title": "Great location",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla, sapien sit amet aliquet dictum, dui sem suscipit velit, in finibus metus urna nec nunc.",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "hotelId": 1,
+      "title": "Clean and comfortable",
+      "description": "Phasellus finibus massa id quam suscipit, sed commodo risus aliquet. Nulla at posuere neque.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "hotelId": 2,
+      "title": "Wonderful stay",
+      "description": "Nulla id posuere quam. Phasellus luctus est nec tempor molestie. Nulla facilisi.",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "hotelId": 2,
+      "title": "Magical experience",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non risus nec neque dictum ultricies.",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "hotelId": 3,
+      "title": "Comfortable and cozy",
+      "description": "Donec mattis tortor ut risus finibus, eget tempus libero lobortis. Quisque varius libero a arcu elementum, nec ultrices odio blandit.",
+      "rating": 4
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "title": "Beach Resort (***)",
+      "thumbnail": "https://picsum.photos/id/216/400/400"
+    },
+    {
+      "id": 2,
+      "title": "Mountain Lodge (*****)",
+      "thumbnail": "https://picsum.photos/id/217/400/400"
+    },
+    {
+      "id": 3,
+      "title": "City Hotel (**)",
+      "thumbnail": "https://picsum.photos/id/218/400/400"
     }
   ]
 }
+
