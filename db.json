@@ -48,6 +48,14 @@
     {
       "id": 3,
       "title": "Holiday Preparation"
+    },
+    {
+      "id": 4,
+      "title": "Vacation"
+    },
+    {
+      "id": 5,
+      "title": "Medicine"
     }
   ],
   "tasks": [
