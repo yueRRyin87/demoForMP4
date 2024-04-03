@@ -1,40 +1,75 @@
 {
   "items": [
-    {
-      "id": 1,
-      "listId": 1,
-      "title": "Laundry Detergent",
-      "quantity": 1,
-      "price": 5.99
-    },
-    {
-      "id": 2,
-      "listId": 1,
-      "title": "Pasta",
-      "quantity": 1,
-      "price": 1.49
-    },
-    {
-      "id": 3,
-      "listId": 2,
-      "title": "Candles",
-      "quantity": 1,
-      "price": 3.99
-    },
-    {
-      "id": 4,
-      "listId": 2,
-      "title": "Party Hats",
-      "quantity": 12,
-      "price": 6.99
-    },
-    {
-      "id": 5,
-      "listId": 3,
-      "title": "Gift Wrapping Paper",
-      "quantity": 1,
-      "price": 4.49
-    }
+    [
+  {
+    
+  "id": 1,
+  "listId":1,
+  "title": "Laundry Detergent",
+  "description": "Liquid detergent for washing clothes",
+  "created_at": "2024-04-01T08:00:00Z",
+  "updated_at": "2024-04-01T08:00:00Z",
+  "priority": "high",
+  "owner": "John Doe",
+  "completed": false
+
+  },
+  {
+  "id": 2,
+  "listId":2,
+  "title": "Balloons",
+  "description": "Party supplies for a birthday party",
+  "created_at": "2024-03-15T10:00:00Z",
+  "updated_at": "2024-03-29T15:30:00Z",
+  "priority": "medium",
+  "owner": "Alice Smith",
+  "completed": true
+}
+
+  {
+    "id": 3,
+    "listId": 2,
+    "title": "Birthday Balloons",
+    "quantity": 10,
+    "price": 3.99
+  },
+  {
+    "id": 4,
+    "listId": 2,
+    "title": "Party Streamers",
+    "quantity": 1,
+    "price": 2.99
+  },
+  {
+    "id": 5,
+    "listId": 3,
+    "title": "Sunscreen",
+    "quantity": 1,
+    "price": 7.99
+  },
+  {
+    "id": 6,
+    "listId": 3,
+    "title": "Beach Towel",
+    "quantity": 2,
+    "price": 9.99
+  },
+  {
+    "id": 7,
+    "listId": 4,
+    "title": "Notepad",
+    "quantity": 1,
+    "price": 1.99
+  },
+  {
+    "id": 8,
+    "listId": 4,
+    "title": "Pen",
+    "quantity": 3,
+    "price": 0.79
+  }
+]
+
   ],
   "lists": [
     {
